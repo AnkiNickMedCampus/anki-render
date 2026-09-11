@@ -1,0 +1,34 @@
+{
+    "name": "@ankinick/anki-render",
+    "version": "1.0.0",
+    "description": "Anki-Karten aus Feldern und Notiztyp rendern — geteilt von App und Backend-Frontend",
+    "license": "UNLICENSED",
+    "private": false,
+    "type": "module",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js",
+            "default": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist",
+        "src"
+    ],
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "prepare": "npm run build",
+        "types:check": "tsc -p tsconfig.json --noEmit"
+    },
+    "devDependencies": {
+        "typescript": "^5.7.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/AnkiNickMedCampus/anki-render.git"
+    }
+}
