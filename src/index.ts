@@ -33,3 +33,12 @@ export {
     type RenderedContent,
     type RenderOpts,
 } from './render.js';
+
+export {
+    buildCardDocument,
+    cardSkinCss,
+    convertAnkiMath,
+    hasMath,
+    type CardDocumentOptions,
+    type CardSkin,
+} from './document.js';

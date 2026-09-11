@@ -10,4 +10,5 @@
  */
 export { BASIC_NOTE_TYPE, CLOZE_NOTE_TYPE, type CardNoteType, } from './types.js';
 export { buildClozeCards, buildImageOcclusion, buildManualContent, escapeHtml, isBasicNoteType, isImageOcclusion, isInsideTag, renderFromFields, renderTemplate, resolveHtmlMedia, stripHtml, typeFieldOf, type ClozeCard, type ManualContent, type RenderedContent, type RenderOpts, } from './render.js';
+export { buildCardDocument, cardSkinCss, convertAnkiMath, hasMath, type CardDocumentOptions, type CardSkin, } from './document.js';
 //# sourceMappingURL=index.d.ts.map
