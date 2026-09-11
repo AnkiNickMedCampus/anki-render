@@ -1,3 +1,4 @@
+import { layoutCss } from './blocks.js';
 import { escapeHtml } from './render.js';
 
 /**
@@ -77,6 +78,7 @@ export function cardSkinCss(s: CardSkin): string {
     table{margin:8px auto;border-collapse:collapse;}
     td,th{border:1px solid ${s.border};padding:4px 9px;}
     ul,ol{display:inline-block;text-align:left;margin:6px 0;}
+    ${layoutCss(s)}
   `;
 }
 

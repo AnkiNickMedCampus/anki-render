@@ -42,3 +42,22 @@ export {
     type CardDocumentOptions,
     type CardSkin,
 } from './document.js';
+
+export {
+    FIELD_BLOCKS,
+    compileBlock,
+    compileLayout,
+    defaultClozeLayout,
+    defaultLayout,
+    emptyLayout,
+    layoutCss,
+    newBlockId,
+    usedFields,
+    type BlockAlign,
+    type BlockSize,
+    type BlockTone,
+    type BlockType,
+    type CompiledLayout,
+    type LayoutBlock,
+    type NoteLayout,
+} from './blocks.js';

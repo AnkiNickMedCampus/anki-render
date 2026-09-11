@@ -1,6 +1,6 @@
 {
     "name": "@ankinick/anki-render",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Anki-Karten aus Feldern und Notiztyp rendern — geteilt von App und Backend-Frontend",
     "license": "UNLICENSED",
     "private": false,
